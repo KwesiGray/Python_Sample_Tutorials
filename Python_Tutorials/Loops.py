@@ -1,36 +1,39 @@
 #A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
-
-
 # WHILE LOOPS
+# Set the name variable to empty to accept the input from the user
+# Goal is to make the user stuck in a loop if his/her name is not entered
 
-#name = ""
-#while len(name) == 0:
-#   name = input("Enter Your Name!")
-#print ("Hello "+name)
+name = ""
+while len(name) == 0:
+   name = input("Enter Your Name!")
+print ("Hello "+name)
 
 #FOR LOOPS
 #How to write a simple For Loop.
-
-#for i in range(10):
- #   print(i+1)
-
+print("A simple For loop using the range function.")
+for i in range(10):
+    print(i+1)
 
 #The Range function format(start,end,step size)
-#for index in range(50,100+1,5):
-#    print(str(index) +str(" shy"))
+print("")
+print("Implementing the range function format here")
+for index in range(50,100+1,5):
+   print(str(index) +str(" shy"))
 
+print("")
 
 #Printing Every Letter in a String
-#for i in "David Graham":
- #   print(i)
+print("Printing or iterating through a string using the for loop")
+for i in "David Graham":
+    print("The letters of the string are")
+    print(i)
+    
+print("")
  
-
 #Using the time Import.
 
-
 import time
-
 
 # importing time and using it as a countdown timer
 
@@ -40,10 +43,9 @@ for seconds in range(3,0,-1):
   time.sleep(1)
 print ("Happy New Year!!!!!!")
 
-
-        
-        
- #using a for loop to find the first 10 multiples of 2  
+print("")
+      
+#using a for loop to find the first 10 multiples of 2  
 print("using a for loop to find the first 10 multiples of 2")     
 for j in range(1,10+1,1):
   print(j*2)
