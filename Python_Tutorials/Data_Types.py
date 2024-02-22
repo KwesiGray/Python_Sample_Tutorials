@@ -1,4 +1,4 @@
-# ALL THE DATA TYPES IN JAVA YOU SHOULD KNOW.
+# ALL THE DATA TYPES IN PYTHON YOU SHOULD KNOW.
 
 print("WELCOME TO PYTHON DATA TYPES!!")
 print("")
@@ -26,12 +26,15 @@ t = tuple(("grapes", "strawberry", "cherry"))	#tuple
 r = range(6)	#range	
 
 # A Dictionary / Giving Variables values in the same bracket is how its implemented
-d = dict(name="John", age=36)	#dict	
-
+d = dict(name="John", age=36)	#dict
+	
+# A Set of Strings with the implementation like a tuple
 s = set(("red", "yellow", "black"))	#set	
 
-g = frozenset(("dog", "cat", "lion"))	#frozenset	
-
+# A frozenset implenmentation
+g = frozenset(("dog", "cat", "lion"))	#frozenset
+	
+# A Boolean Implenmentation
 b = bool(5)	#bool	
 
 n = bytes(5)	#bytes
@@ -51,11 +54,11 @@ print(c)
 print(l)
 
 #pay attention to the output of the List datatype ,Tuple , & sets
-print("pay attention to the output of the List datatype ,Tuple , & set")
+print("pay attention to the OUTPUTS of the List ,Tuple , set & FrozenSets")
 print("")
 
 #for the List
-print("or the List")
+print("For the List")
 print(l)
 
 
@@ -67,4 +70,8 @@ print(t)
 #for the sets
 print("for the Sets")
 print(s)
+
+#for the FrozenSets
+print("for the FrozenSets")
+print(g)
 
