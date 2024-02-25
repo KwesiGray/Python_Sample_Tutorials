@@ -75,3 +75,21 @@ print(s)
 print("for the FrozenSets")
 print(g)
 
+
+#Using the Complex data type to add to complex numbers.
+print("")
+
+print("Using the Complex data type to add to complex numbers.")
+
+a = 12+6j
+b = 2+4j
+
+add = a+b
+sub = a-b
+div = a/b
+multi = a*b
+
+print("Addition= "+str(add))
+print("Subtraction= "+str(sub))
+print("Division= "+str(div))
+print("Multiplication= "+str(multi))
