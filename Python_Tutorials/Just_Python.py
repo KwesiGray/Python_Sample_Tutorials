@@ -3,7 +3,7 @@ import random
 #Using the Random Import.
 
 jay = random.randrange(1,10)
-print(str(jay)+ " is the random number printed")
+print(str(jay)+ " is the random number printed from 1 to 9 with 10 exclucive")
 
 
 g= 3+5j + 4+3j

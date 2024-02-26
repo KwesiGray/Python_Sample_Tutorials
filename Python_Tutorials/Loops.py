@@ -107,8 +107,8 @@ print("results above..")
 print("it prints the first array elements paired with the second array elements")
   
   
-#Using the Pass Statement in a For Loop to prevent an error in your code
-#This Statement is generally used when for ome reason you have an empty FOR LOOP BLOCK
+#Using the 'Pass' Statement in a For Loop to prevent an error in your code
+#This Statement is generally used when for one reason you have an empty FOR LOOP BLOCK of code
 print("")
 
 print("Using the pass statement in a For loop to prevent errors.")
