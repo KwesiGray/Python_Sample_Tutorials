@@ -11,8 +11,8 @@ print(g)
 
 print("")
 
-# How to print Paragraphs in Python.
-print("How to print Paragraphs in Python.")
+# How to print Paragraphs in Python or A MultiLine Comment
+print("How to print Paragraphs in Python or A MultiLine Comment in Python.")
 print("")
 
 Par='''Lorem ipsum dolor sit amet,
@@ -31,3 +31,11 @@ print(a + " Is the String Under Review")
 
 print("Printing From index 0-5 of the word HUMAN BEING ")
 print("The New String is: "+ a[0:5])
+print("\n")
+
+x = "Hello World"
+print("The String Under Review is: "+ x)
+print("Printing the 3rd index of the above string")
+print("\n")
+a = x[3]
+print("The Third Index of the Above String is: "+ a)
