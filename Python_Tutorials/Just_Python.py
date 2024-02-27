@@ -39,3 +39,18 @@ print("Printing the 3rd index of the above string")
 print("\n")
 a = x[3]
 print("The Third Index of the Above String is: "+ a)
+
+#Printing A Particular Text in a set of a strings
+print("\n")
+txt= "There's no free lunch in the world"
+print(txt)
+print("free" in txt)
+#Returns "True" Because the word "Free" actually exists in the Sentence above.
+print("\n")
+
+#Using the same technique.But This time with a "IF Statement".
+txt1 = "There's no free lunch in the world"
+if "free" in txt1:
+    print("Yes the Word Free is in the above string")
+    x="Free"
+    print(x)
