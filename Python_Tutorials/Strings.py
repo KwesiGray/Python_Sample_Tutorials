@@ -55,3 +55,41 @@ print("\n")
 
 #PYTHON SLICING STRINGS
 print("PYTHON SLICING STRINGS")
+print("")
+b = "David Graham"
+print(b +" IS THE STRING UNDER REVIEW")
+bS = b[2:6]
+print("Sliced String from index 2 - index 5")
+print(bS)
+print("\n")
+
+#Slice From Start To a Specific Index
+print("PYTHON SLICING STRINGS FROM START TO A SPECIFIC INDEX.")
+print("")
+b = "David Graham"
+print(b+" IS THE STRING UNDER REVIEW")
+bS = b[:6]
+print("Sliced String from index 0 - index 5")
+print(bS)
+print("\n")
+
+#Slice From A Specific Index to the END of a Particular string
+print("PYTHON SLICING STRINGS FROM A SPECIFIC INDEX TO THE END OF A STRING.")
+print("")
+b = "David Graham"
+print(b+" IS THE STRING UNDER REVIEW")
+bS = b[6:]
+print("Sliced String from index 0 - index 5")
+print(bS)
+print("\n")
+
+# NEGATIVE INDEXING 
+# Use negative indexes to start the slice from the end of the string to the startof the string.
+print("PYTHON SLICING STRINGS FROM THE BACK OF THE STRING TO THE FRONT OF THAT STRING.")
+print("")
+b = "David Graham"
+print(b+" IS THE STRING UNDER REVIEW")
+bS = b[-6:]
+print("Sliced String from index -5 - index -1")
+print(bS)
+print("\n")
