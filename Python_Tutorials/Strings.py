@@ -121,3 +121,43 @@ print(Mo +" is the String Under Review Here")
 stRip = Mo.strip() #METHOD FOR Removing WhiteSpaces
 print(stRip + " without whiteSpaces")
 print("")
+
+#Replacing Letters in A string with another letter
+#Method Used .replace()
+print("Replacing Letters in A string with another letter")
+Re = "Pie Chart"
+print(Re +" is the String Under Review Here")
+print("Replacing C with D ")
+Re2 = Re.replace("C","D")
+print(Re2)
+print("")
+
+#The split() method splits the string into substrings if it finds instances of the separator:
+
+
+
+#Using The Format Method
+# The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+Age =24 
+text = "I am David and i am {}"
+foString = text.format(Age)
+print(foString)
+# Another Way to use the Formatted String
+print("")
+Age =24 
+height = 44
+text = "I am David and i am {}  and my respective height is {}"
+foString = text.format(Age , height)
+print(foString)
+print("") 
+
+#You can use Index to specify 
+print("Using Indexes to Specify where a Formatted String will go")
+
+Age =24 
+height = 44
+text = "I am David and i am {1}  and my respective height is {0}"
+foString = text.format(Age , height)
+print(foString)
+print("") 
+
