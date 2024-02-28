@@ -58,7 +58,7 @@ print("PYTHON SLICING STRINGS")
 print("")
 b = "David Graham"
 print(b +" IS THE STRING UNDER REVIEW")
-bS = b[2:6]
+bS = b[2:6] #ATTENTION
 print("Sliced String from index 2 - index 5")
 print(bS)
 print("\n")
@@ -68,7 +68,7 @@ print("PYTHON SLICING STRINGS FROM START TO A SPECIFIC INDEX.")
 print("")
 b = "David Graham"
 print(b+" IS THE STRING UNDER REVIEW")
-bS = b[:6]
+bS = b[:6] #ATTENTION
 print("Sliced String from index 0 - index 5")
 print(bS)
 print("\n")
@@ -78,7 +78,7 @@ print("PYTHON SLICING STRINGS FROM A SPECIFIC INDEX TO THE END OF A STRING.")
 print("")
 b = "David Graham"
 print(b+" IS THE STRING UNDER REVIEW")
-bS = b[6:]
+bS = b[6:] #ATTENTION
 print("Sliced String from index 0 - index 5")
 print(bS)
 print("\n")
@@ -89,7 +89,7 @@ print("PYTHON SLICING STRINGS FROM THE BACK OF THE STRING TO THE FRONT OF THAT S
 print("")
 b = "David Graham"
 print(b+" IS THE STRING UNDER REVIEW")
-bS = b[-6:]
+bS = b[-6:] #ATTENTION
 print("Sliced String from index -5 - index -1")
 print(bS)
 print("\n")
