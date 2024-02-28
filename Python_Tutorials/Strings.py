@@ -90,6 +90,34 @@ print("")
 b = "David Graham"
 print(b+" IS THE STRING UNDER REVIEW")
 bS = b[-6:] #ATTENTION
-print("Sliced String from index -5 - index -1")
+print("Sliced String from index -6 - index -1")
 print(bS)
 print("\n")
+
+#PYTHON MODIFYING OF STRINGS.
+
+print("Python Modifying of Strings - TO UPPERCASE")
+Mo = "Hello Kwesi"
+print(Mo +" is the String Under Review Here")
+Uppercase = Mo.upper() #METHOD FOR CONVERTING TO UPPERCASE
+print(Uppercase + " now in UPPERCASE")
+print("")
+
+#PYTHON MODIFYING OF STRINGS.
+print("Python Modifying of Strings - TO lowercase")
+Mo = "HELLO KWESI"
+print(Mo +" is the String Under Review Here")
+lowercase = Mo.lower() #METHOD FOR CONVERTING TO lowercase
+print(lowercase + " now in lowercase")
+print("")
+
+#PYTHON MODYFYING OF STRINGS
+# Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+
+print("Python Modifying of Strings - TO Remove WhiteSpaces")
+Mo = "  HELLO KWESI" # The Gaps infront of the string are the white spaces.
+
+print(Mo +" is the String Under Review Here")
+stRip = Mo.strip() #METHOD FOR Removing WhiteSpaces
+print(stRip + " without whiteSpaces")
+print("")
