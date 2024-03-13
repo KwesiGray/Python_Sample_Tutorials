@@ -1,3 +1,4 @@
+# BOOLEANS
 # In programming you often need to know if an expression is True or False.
 # You can evaluate any expression in Python, and get one of two answers, True or False.
 
@@ -24,4 +25,43 @@ print("\n")
 
 #Evaluate Variables and variables  
 # Using the bool Fuction
-  
+# The bool() function allows you to evaluate any value, and give you True or False in return
+print("A Simple Illustration with the bool function")
+print(bool("hello"))  
+print(bool(89))
+print("\n")
+
+"""Almost any value is evaluated to True if it has some sort of content.
+Any string is True, except empty strings.
+Any number is True, except 0.
+Any list, tuple, set, and dictionary are True, except empty ones.
+ """
+ 
+#Functions can also be in this case a Boolean.
+print("Making A function a Boolean.")
+print("Creating for the boolean TRUE..")
+def myTrueBool():
+    return True
+print(myTrueBool())
+print("\n")
+
+
+print("Creating for the boolean FALSE..")
+def myFalseBool():
+    return False
+print(myFalseBool())
+print("\n")
+
+#You can execute code based on the Boolean answer of a function:
+# A Code to Print "YES!" if the function returns True, otherwise print "NO!":
+
+print("A Code to Print YES! if the function returns True, otherwise print NO!")
+def myFunction():
+    return True
+
+if myFunction:
+    print("YESSS!!!")
+else:
+    print("NO!")
+    
+print("\n")
