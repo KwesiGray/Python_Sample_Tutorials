@@ -65,3 +65,15 @@ else:
     print("NO!")
     
 print("\n")
+
+"""Python also has many built-in functions that return a boolean value, 
+like the isinstance() function, which can be used to determine if an 
+object is of a certain data type:
+"""
+print("Using the- isInstance method to check the data type of a certain value")
+
+gee = 202
+# Checking if 202 is an int data type or not.
+print(gee)
+kay = isinstance(gee,int)
+print(kay)
