@@ -10,8 +10,11 @@ print(x)
 y = x**3+x**2-190
 print(y)
 
+z = x**2+x-30
+
+
 #Common Methods used in Matplotlib.Pyplot with regards to plotting a graph and visualizing data.                                                                                                                  
-plt.plot(x, y)
+plt.plot(x, y, z)
 plt.plot(x, y, 'b--')   #b-- is the color of the line in the graph
 plt.plot(x, y, 'ro')    #ro is the color of the points in the graph
 plt.xlabel('x-axis')

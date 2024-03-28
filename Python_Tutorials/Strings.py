@@ -156,7 +156,7 @@ print("Using Indexes to Specify where a Formatted String will go")
 
 Age =24 
 height = 44
-text = "I am David and i am {1}  and my respective height is {0}"
+text = "I am David and i am {0}  and my respective height is {1}"
 foString = text.format(Age , height)
 print(foString)
 print("") 
