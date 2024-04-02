@@ -10,6 +10,7 @@ try:
 except FileNotFoundError:
     print("The file 'diamond.csv' does not exist in the current directory.")
     exit(1)
+
 #Returns the first n rows & columns of the dataframe.
 print(Dframe.head())
 
@@ -52,7 +53,7 @@ plt.title("Price vs Carat")
 plt.grid()
 plt.show()
 
-
-
-
- 
+# Adding a heatmap to the graph to show the correlation between the variables
+plt.figure(figsize=(10, 8))
+sns.heatmap(Dframe.corr(), annot=True, cmap='coolwarm')
+plt.show()
