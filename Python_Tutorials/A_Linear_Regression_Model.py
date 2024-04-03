@@ -49,11 +49,24 @@ plt.plot(X, m*X + b,)
 plt.xlabel("Carat")
 plt.ylabel("Price")
 plt.title("Price vs Carat")
+plt.legend(["Price", "Line of best fit"])
 #Displaying the graph with grids
 plt.grid()
 plt.show()
 
-# Adding a heatmap to the graph to show the correlation between the variables
+# Adding a heatmap to the graph to show the correlation between the variables X and Y
+
+#creating a subset from the main dataframe consisting of the two variables we are interested in(x and y)
+
+Extract = Dframe[['carat', 'price']]    #Extracting the two columns we are interested in
+print(Extract.head(10))
+
+
+
+#Creating a heatmap to show the correlation between the two variables
 plt.figure(figsize=(10, 8))
-sns.heatmap(Dframe.corr(), annot=True, cmap='coolwarm')
+sns.heatmap(Extract.corr(), annot=True, cmap='coolwarm')
+
+
+
 plt.show()
